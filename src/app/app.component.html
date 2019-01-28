@@ -1,4 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-header></app-header>
-<app-sidebar></app-sidebar>
-<router-outlet></router-outlet>
+<div class="app">
+  <app-sidebar></app-sidebar>
+  <div class="main-panel">
+    <app-header class="header navbar"></app-header>
+
+    <!-- main area -->
+    <div class="main-content">
+      <div class="content-view">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
