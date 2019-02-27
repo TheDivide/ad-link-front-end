@@ -1,0 +1,16 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "ad-link-front-end",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
